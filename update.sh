@@ -2,6 +2,10 @@
 
 git submodule update --init
 
+# Empty file.
+echo "" > README.md
+
+# Fill it
 echo "# Rofi Themes: "                  >> README.md
 echo ""                                 >> README.md
 for a in *.theme
@@ -10,7 +14,7 @@ do
     echo "# ${NAME}"
     ./rofi/script/rofi-create-screenshot.sh "${a}" "${NAME}.png"
     echo "## Screenshot"                    >> README.md
-    echo "[Screenshot](./${NAME}.png)"      >> README.md
+    echo "![Screenshot](./${NAME}.png)"      >> README.md
     echo "## XResources"                    >> README.md
     echo "\`\`\`"                           >> README.md
     cat "${a}"                              >> README.md
