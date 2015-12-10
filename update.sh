@@ -11,10 +11,10 @@ echo ""                                 >> README.md
 for a in *.theme
 do
     NAME=${a%.theme}
-    echo "# ${NAME}"
+    echo "# ${NAME}"                        >> README.md
     ./rofi/script/rofi-create-screenshot.sh "${a}" "${NAME}.png"
     echo "## Screenshot"                    >> README.md
-    echo "![Screenshot](./${NAME}.png)"      >> README.md
+    echo "![Screenshot](./${NAME}.png)"     >> README.md
     echo "## XResources"                    >> README.md
     echo "\`\`\`"                           >> README.md
     cat "${a}"                              >> README.md

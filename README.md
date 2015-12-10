@@ -1,6 +1,7 @@
 
 # Rofi Themes: 
 
+# blue
 ## Screenshot
 ![Screenshot](./blue.png)
 ## XResources
