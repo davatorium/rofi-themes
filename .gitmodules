@@ -1,0 +1,3 @@
+[submodule "rofi"]
+	path = rofi
+	url = https://github.com/DaveDavenport/rofi
