@@ -16,7 +16,7 @@ do
     if [ ${a} -nt ${IMAGE} ]
     then
         ./rofi/script/rofi-create-screenshot.sh "${a}" "${IMAGE}"
-        git add "${NAME}.png"
+        git add "${IMAGE}"
         git add "${a}"
     fi
     echo "## Screenshot"                    >> README.md
