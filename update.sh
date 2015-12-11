@@ -12,20 +12,19 @@ for a in *.theme
 do
     NAME=${a%.theme}
     IMAGE="Screenshots/${NAME}.png"
+    echo "# ${NAME}"                        >> README.md
     if [ ${a} -nt ${IMAGE} ]
     then
-        echo "# ${NAME}"                        >> README.md
         ./rofi/script/rofi-create-screenshot.sh "${a}" "${IMAGE}"
-        echo "## Screenshot"                    >> README.md
-        echo "![Screenshot](./${IMAGE})"        >> README.md
-        echo "## XResources"                    >> README.md
-        echo "\`\`\`"                           >> README.md
-        cat "${a}"                              >> README.md
-        echo "\`\`\`"                           >> README.md
-
         git add "${NAME}.png"
         git add "${a}"
     fi
+    echo "## Screenshot"                    >> README.md
+    echo "![Screenshot](./${IMAGE})"        >> README.md
+    echo "## XResources"                    >> README.md
+    echo "\`\`\`"                           >> README.md
+    cat "${a}"                              >> README.md
+    echo "\`\`\`"                           >> README.md
 done
 
 
