@@ -8,9 +8,11 @@ echo "" > README.md
 # Fill it
 echo "# Rofi Themes: "                  >> README.md
 echo ""                                 >> README.md
-for a in *.theme
+for a in Themes/*.theme
 do
-    NAME=${a%.theme}
+    FILE=$(basename $a)
+    echo "File: ${FILE}"
+    NAME=${FILE%.theme}
     IMAGE="Screenshots/${NAME}.png"
     echo "# ${NAME}"                        >> README.md
     if [ ${a} -nt ${IMAGE} ]
