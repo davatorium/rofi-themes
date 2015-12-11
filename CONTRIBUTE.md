@@ -15,7 +15,7 @@ Make a local checkout of this new repository.
 Inside the new repository create a file containing the theme settings:
 
 ```bash
-rofi -dump-xresources-theme > {themename}.theme
+rofi -dump-xresources-theme > Themes/{themename}.theme
 ```
 
 This stores the colors and separator style configuration in `{themename}.theme`.
