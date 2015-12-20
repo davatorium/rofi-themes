@@ -55,6 +55,20 @@ rofi.color-active:                   argb:00000000, #a0ffa0, argb:00000000, #a0f
 ! Color scheme window
 rofi.color-window:                   argb:ee0060a0, #00b0ef,#00b0ef
 ```
+# c64
+## Screenshot
+![Screenshot](./Screenshots/c64.png)
+## XResources
+```
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #0039ff, #0039ff, #0088fe
+rofi.color-normal: #0039ff, #4f80ff, #0039ff, #4f80ff, #ffffff
+rofi.color-active: #0039ff, #68ba50, #0039ff, #4f80ff, #68ba50
+rofi.color-urgent: #0039ff, #ff7047, #0039ff, #4f80ff, #ff7047
+```
 # lb
 ## Screenshot
 ![Screenshot](./Screenshots/lb.png)
