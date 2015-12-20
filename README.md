@@ -69,6 +69,20 @@ rofi.color-normal: #0039ff, #4f80ff, #0039ff, #4f80ff, #ffffff
 rofi.color-active: #0039ff, #68ba50, #0039ff, #4f80ff, #68ba50
 rofi.color-urgent: #0039ff, #ff7047, #0039ff, #4f80ff, #ff7047
 ```
+# glue_pro_blue
+## Screenshot
+![Screenshot](./Screenshots/glue_pro_blue.png)
+## XResources
+```
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #393939, #393939, #268bd2
+rofi.color-normal: #393939, #ffffff, #393939, #268bd2, #ffffff
+rofi.color-active: #393939, #268bd2, #393939, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c
+```
 # lb
 ## Screenshot
 ![Screenshot](./Screenshots/lb.png)
