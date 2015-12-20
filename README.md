@@ -98,6 +98,17 @@ rofi.color-window:                   #2f1e2e, argb:36ef6155, argb:2fef6155
 ! Separator style (none, dash, solid)
 rofi.separator-style:                dash
 ```
+# solarized_alternate
+## Screenshot
+![Screenshot](./Screenshots/solarized_alternate.png)
+## XResources
+```
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
+rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
+rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
+```
 # solarized
 ## Screenshot
 ![Screenshot](./Screenshots/solarized.png)
