@@ -28,9 +28,10 @@ do
     echo ""                                 >> README.md
     echo "## XResources"                    >> README.md
     echo ""                                 >> README.md
-    echo "~~~"                           >> README.md
+    echo "~~~"                              >> README.md
     cat "${a}"                              >> README.md
-    echo "~~~"                           >> README.md
+    echo "~~~"                              >> README.md
+    echo ""                                 >> README.md
 done
 
 
