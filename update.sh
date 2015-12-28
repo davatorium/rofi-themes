@@ -9,7 +9,9 @@ echo "" > README.md
 echo "# Rofi Themes: "                  >> README.md
 echo "Below a list of user contributed **rofi** themes." >> README.md
 echo ""                                 >> README.md
-for a in Themes/*.theme
+
+THEMES=( $(ls Themes/*.theme) )
+for a in ${THEMES[@]}
 do
     FILE=$(basename $a)
     echo "File: ${FILE}"
