@@ -7,6 +7,7 @@ echo "" > README.md
 
 # Fill it
 echo "# Rofi Themes: "                  >> README.md
+echo "Below a list of user contributed **rofi** themes." >> README.md
 echo ""                                 >> README.md
 for a in Themes/*.theme
 do
