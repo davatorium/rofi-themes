@@ -6,18 +6,28 @@ git submodule update --init
 echo "" > README.md
 
 # Fill it
-echo "# Rofi Themes: "                  >> README.md
+echo "# Rofi Themes: "                      >> README.md
 echo "Below a list of user contributed **rofi** themes." >> README.md
-echo ""                                 >> README.md
+echo ""                                     >> README.md
+
+getAuthor() {
+    awk '/User: / { print $3 }' "${a}"
+}
 
 THEMES=( $(ls Themes/*.theme) )
 for a in ${THEMES[@]}
 do
     FILE=$(basename $a)
+    STRIPPED=$(grep -vwE "User:" "${a}")
     echo "File: ${FILE}"
     NAME=${FILE%.theme}
     IMAGE="Screenshots/${NAME}.png"
-    echo "# ${NAME}"                        >> README.md
+    AUTHOR=$(getAuthor)
+    echo "# ${FILE}"                        >> README.md
+    if [ -n ${AUTHOR} ];
+    then
+        echo "by ${AUTHOR}"                 >> README.md
+    fi
     echo ""                                 >> README.md
     if [ ${a} -nt ${IMAGE} ]
     then
@@ -32,7 +42,7 @@ do
     echo "## XResources"                    >> README.md
     echo ""                                 >> README.md
     echo "~~~"                              >> README.md
-    cat "${a}"                              >> README.md
+    echo "${STRIPPED}"                      >> README.md
     echo "~~~"                              >> README.md
     echo ""                                 >> README.md
 done
