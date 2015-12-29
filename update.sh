@@ -14,7 +14,7 @@ getAuthor() {
     awk '/User: / { print $3 }' "${a}"
 }
 
-THEMES=( $(ls Themes/*.theme) )
+THEMES=(Themes/*.theme)
 for a in ${THEMES[@]}
 do
     FILE=$(basename $a)
