@@ -15,10 +15,12 @@ Make a local checkout of this new repository.
 Inside the new repository create a file containing the theme settings:
 
 ```bash
-rofi -dump-xresources-theme > Themes/{themename}.theme
+./addtheme.sh
 ```
 
 This stores the colors and separator style configuration in `{themename}.theme`.
+
+Theme author is set to your login name. If you would like to override this, use the `--user "Some Name"` argument.
 
 Edit this file to add more information if needed, for example if the theme should use a specific font.
 
@@ -30,6 +32,11 @@ Run the included script:
 ./update.sh
 ```
 Make sure the script finished successful.
+Dependencies for the script are:
+
+* xdotool
+* xrdb
+* xvfb
 
 ## Commit and push changes
 

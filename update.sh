@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+currentdir="$(pwd)"
+rofi_themes_dir="$(dirname $0)"
+
+cd "${rofi_themes_dir}"
 
 git submodule update --init
 
@@ -24,7 +28,7 @@ do
     IMAGE="Screenshots/${NAME}.png"
     AUTHOR=$(getAuthor)
     echo "# ${FILE}"                        >> README.md
-    if [ -n ${AUTHOR} ];
+    if [ ${AUTHOR} ];
     then
         echo "by ${AUTHOR}"                 >> README.md
     fi
@@ -47,5 +51,8 @@ do
     echo ""                                 >> README.md
 done
 
-
 git add README.md
+
+cd "${currentdir}"
+
+
