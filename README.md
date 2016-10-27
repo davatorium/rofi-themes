@@ -28,12 +28,12 @@ rofi.color-window:                   #ffffff,#f5f5f5
 rofi.separator-style:                solid
 ~~~
 
-# Blue.theme
+# DarkBlue.theme
 by qball
 
 ## Screenshot
 
-![Screenshot](./Screenshots/Blue.png)
+![Screenshot](./Screenshots/DarkBlue.png)
 
 ## XResources
 
