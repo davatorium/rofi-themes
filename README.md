@@ -2,26 +2,6 @@
 # Rofi Themes: 
 Below a list of user contributed **rofi** themes.
 
-# android_notification.theme
-by Rasi
-
-## Screenshot
-
-![Screenshot](./Screenshots/android_notification.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-rofi.color-window: #273238, #273238, #1e2529
-rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
-rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
-rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
-~~~
-
 # Arc.theme
 
 ## Screenshot
@@ -46,6 +26,51 @@ rofi.color-active:                   #ffffff,#c2cad0,#f5f5f5,#5294e2,#c2cad0
 rofi.color-window:                   #ffffff,#f5f5f5
 ! Separator style (none, dash, solid)
 rofi.separator-style:                solid
+~~~
+
+# Blue.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/Blue.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
+! "Color scheme window" Set from: File
+rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
+! "Separator style (none, dash, solid)" Set from: XResources
+rofi.separator-style:                solid
+~~~
+
+# android_notification.theme
+by Rasi
+
+## Screenshot
+
+![Screenshot](./Screenshots/android_notification.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 ~~~
 
 # blor.theme
@@ -192,26 +217,6 @@ rofi.color-window:                   #2f1e2e, argb:36ef6155, argb:2fef6155
 rofi.separator-style:                dash
 ~~~
 
-# solarized_alternate.theme
-by Rasi
-
-## Screenshot
-
-![Screenshot](./Screenshots/solarized_alternate.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-rofi.color-window: #002b37, #002b37, #003642
-rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
-rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
-rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
-~~~
-
 # solarized.theme
 by Rasi
 
@@ -230,5 +235,25 @@ rofi.color-window: #002b37, #002b37, #003642
 rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
 rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
 rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
+~~~
+
+# solarized_alternate.theme
+by Rasi
+
+## Screenshot
+
+![Screenshot](./Screenshots/solarized_alternate.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
+rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
+rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
 ~~~
 
