@@ -53,6 +53,31 @@ rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
 rofi.separator-style:                solid
 ~~~
 
+# Indego.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/Indego.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:07986cb, #e8eaf6, #283593, #3f51b5, #e8eaf6
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:0fdf6e3, #ffcdd2, #b71c1c, #ffcdd2, #b71c1c
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:0fdf6e3, #b2ebf2, #006064, #b2ebf2, #006064
+! "Color scheme window" Set from: File
+rofi.color-window:                   #1a237e, #e8eaf6, #e8eaf6
+! "Separator style (none, dash, solid)" Set from: XResources
+rofi.separator-style:                solid
+~~~
+
 # android_notification.theme
 by Rasi
 
