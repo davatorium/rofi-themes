@@ -1,3 +1,6 @@
 [submodule "rofi"]
 	path = rofi
 	url = https://github.com/DaveDavenport/rofi
+[submodule "Themes/gruvbox"]
+	path = Themes/gruvbox
+	url = https://github.com/bardisty/gruvbox-rofi

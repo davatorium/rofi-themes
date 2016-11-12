@@ -282,3 +282,207 @@ rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
 rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
 ~~~
 
+# gruvbox-dark-hard.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-dark-hard.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-dark-hard.theme
+! Desc: Gruvbox dark (hard contrast) color theme for Rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:12:10 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #1d2021, #a89984, #a89984
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #1d2021, #ebdbb2, #282828, #504945, #fbf1c7
+rofi.color-active: #d79921, #1d2021, #d79921, #fabd2f, #1d2021
+rofi.color-urgent: #cc241d, #1d2021, #cc241d, #fb4934, #1d2021
+~~~
+
+# gruvbox-dark-soft.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-dark-soft.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-dark-soft.theme
+! Desc: Gruvbox dark (soft contrast) color theme for Rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:11:49 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #32302f, #a89984, #a89984
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #32302f, #ebdbb2, #3c3836, #665c54, #fbf1c7
+rofi.color-active: #d79921, #32302f, #d79921, #fabd2f, #32302f
+rofi.color-urgent: #cc241d, #32302f, #cc241d, #fb4934, #32302f
+~~~
+
+# gruvbox-dark.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-dark.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-dark.theme
+! Desc: Gruvbox dark color theme for Rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:11:40 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #282828, #a89984, #a89984
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #282828, #ebdbb2, #32302f, #665c54, #fbf1c7
+rofi.color-active: #d79921, #282828, #d79921, #fabd2f, #282828
+rofi.color-urgent: #cc241d, #282828, #cc241d, #fb4934, #282828
+~~~
+
+# gruvbox-light-hard.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-light-hard.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-light-hard.theme
+! Desc: Gruvbox light (hard contrast) color theme for Rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:11:32 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #f9f5d7, #7c6f64, #7c6f64
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #f9f5d7, #3c3836, #fbf1c7, #ebdbb2, #282828
+rofi.color-active: #b57614, #fdf4c1, #b57614, #d79921, #fdf4c1
+rofi.color-urgent: #cc241d, #fdf4c1, #cc241d, #fb4934, #fdf4c1
+~~~
+
+# gruvbox-light-soft.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-light-soft.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-light-soft.theme
+! Desc: Gruvbox light (soft contrast) color theme for Rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:11:25 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #f2e5bc, #7c6f64, #7c6f64
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #f2e5bc, #3c3836, #ebdbb2, #d5c4a1, #282828
+rofi.color-active: #b57614, #f2e5bc, #b57614, #d79921, #f2e5bc
+rofi.color-urgent: #cc241d, #f2e5bc, #cc241d, #fb4934, #f2e5bc
+~~~
+
+# gruvbox-light.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/gruvbox-light.png)
+
+## XResources
+
+~~~
+!-------------------------------------------------------------------------------
+! Rofi color theme
+!
+! Based on the Gruvbox color scheme for Vim by morhetz
+! https://github.com/morhetz/gruvbox
+!
+! File: gruvbox-light.theme
+! Desc: Gruvbox light color theme for rofi
+! Author: bardisty <b@bah.im>
+! Source: https://github.com/bardisty/gruvbox-rofi
+! Modified: Sat Oct 22 2016 03:11:11 PDT -0700
+!-------------------------------------------------------------------------------
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #fbf1c7, #7c6f64, #7c6f64
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #fbf1c7, #3c3836, #f2e5bc, #d5c4a1, #282828
+rofi.color-active: #b57614, #fbf1c7, #b57614, #d79921, #fbf1c7
+rofi.color-urgent: #cc241d, #fbf1c7, #cc241d, #fb4934, #fbf1c7
+~~~
+
