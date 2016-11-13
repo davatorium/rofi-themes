@@ -78,6 +78,31 @@ rofi.color-window:                   #1a237e, #e8eaf6, #e8eaf6
 rofi.separator-style:                solid
 ~~~
 
+# Paper.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/Paper.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:0f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   #f5f5f5, #d75f00, #d0d0d0, #d75f00, #f5f5f5
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   #f5f5f5, #005f87, #d0d0d0, #005f87, #f5f5f5
+! "Color scheme window" Set from: File
+rofi.color-window:                   #f5f5f5, #444444, #444444
+! "Separator style (none, dash, solid)" Set from: File
+rofi.separator-style:                solid
+~~~
+
 # android_notification.theme
 by Rasi
 
