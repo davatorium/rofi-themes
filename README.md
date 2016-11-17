@@ -2,6 +2,46 @@
 # Rofi Themes: 
 Below a list of user contributed **rofi** themes.
 
+# Adapta-Nokto.theme
+
+## Screenshot
+
+![Screenshot](./Screenshots/Adapta-Nokto.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! Based on Adapta-Nokto GTK theme (https://github.com/adapta-project/adapta-gtk-theme)  
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #3a4c54, #2a373e, #c3c6c8
+rofi.color-normal: #455a64, #fafbfc, #455a64, #00bcd4, #fafbfc
+rofi.color-active: #455a64, #00bcd4, #455a64, #009688, #fdf6e3
+rofi.color-urgent: #455a64, #ff5252, #455a64, #ff5252, #fdf6e3
+~~~
+
+# android_notification.theme
+by Rasi
+
+## Screenshot
+
+![Screenshot](./Screenshots/android_notification.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+~~~
+
 # Arc.theme
 
 ## Screenshot
@@ -26,101 +66,6 @@ rofi.color-active:                   #ffffff,#c2cad0,#f5f5f5,#5294e2,#c2cad0
 rofi.color-window:                   #ffffff,#f5f5f5
 ! Separator style (none, dash, solid)
 rofi.separator-style:                solid
-~~~
-
-# DarkBlue.theme
-by qball
-
-## Screenshot
-
-![Screenshot](./Screenshots/DarkBlue.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
-! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
-! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
-! "Color scheme window" Set from: File
-rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
-! "Separator style (none, dash, solid)" Set from: XResources
-rofi.separator-style:                solid
-~~~
-
-# Indego.theme
-by qball
-
-## Screenshot
-
-![Screenshot](./Screenshots/Indego.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:07986cb, #e8eaf6, #283593, #3f51b5, #e8eaf6
-! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:0fdf6e3, #ffcdd2, #b71c1c, #ffcdd2, #b71c1c
-! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:0fdf6e3, #b2ebf2, #006064, #b2ebf2, #006064
-! "Color scheme window" Set from: File
-rofi.color-window:                   #1a237e, #e8eaf6, #e8eaf6
-! "Separator style (none, dash, solid)" Set from: XResources
-rofi.separator-style:                solid
-~~~
-
-# Paper.theme
-by qball
-
-## Screenshot
-
-![Screenshot](./Screenshots/Paper.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
-! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   #f5f5f5, #d75f00, #d0d0d0, #d75f00, #f5f5f5
-! "Color scheme for active row" Set from: File
-rofi.color-active:                   #f5f5f5, #005f87, #d0d0d0, #005f87, #f5f5f5
-! "Color scheme window" Set from: File
-rofi.color-window:                   #f5f5f5, #444444, #444444
-! "Separator style (none, dash, solid)" Set from: File
-rofi.separator-style:                solid
-~~~
-
-# android_notification.theme
-by Rasi
-
-## Screenshot
-
-![Screenshot](./Screenshots/android_notification.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-rofi.color-window: #273238, #273238, #1e2529
-rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
-rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
-rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 ~~~
 
 # blor.theme
@@ -193,6 +138,31 @@ rofi.color-active: #0039ff, #68ba50, #0039ff, #4f80ff, #68ba50
 rofi.color-urgent: #0039ff, #ff7047, #0039ff, #4f80ff, #ff7047
 ~~~
 
+# DarkBlue.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/DarkBlue.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
+! "Color scheme window" Set from: File
+rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
+! "Separator style (none, dash, solid)" Set from: XResources
+rofi.separator-style:                solid
+~~~
+
 # glue_pro_blue.theme
 by Rasi
 
@@ -211,6 +181,31 @@ rofi.color-window: #393939, #393939, #268bd2
 rofi.color-normal: #393939, #ffffff, #393939, #268bd2, #ffffff
 rofi.color-active: #393939, #268bd2, #393939, #268bd2, #205171
 rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c
+~~~
+
+# Indego.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/Indego.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:07986cb, #e8eaf6, #283593, #3f51b5, #e8eaf6
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:0fdf6e3, #ffcdd2, #b71c1c, #ffcdd2, #b71c1c
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:0fdf6e3, #b2ebf2, #006064, #b2ebf2, #006064
+! "Color scheme window" Set from: File
+rofi.color-window:                   #1a237e, #e8eaf6, #e8eaf6
+! "Separator style (none, dash, solid)" Set from: XResources
+rofi.separator-style:                solid
 ~~~
 
 # lb.theme
@@ -240,6 +235,32 @@ rofi.color-window:                   argb:ee333333, #1aa,#1aa
 rofi.separator-style:                dash
 ~~~
 
+# Paper.theme
+by qball
+
+## Screenshot
+
+![Screenshot](./Screenshots/Paper.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:0f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   #f5f5f5, #d75f00, #d0d0d0, #d75f00, #f5f5f5
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   #f5f5f5, #005f87, #d0d0d0, #005f87, #f5f5f5
+! "Color scheme window" Set from: File
+rofi.color-window:                   #f5f5f5, #444444, #444444
+! "Separator style (none, dash, solid)" Set from: File
+rofi.separator-style:                solid
+rofi.hide-scrollbar:                 false
+~~~
+
 # purple.theme
 by Rasi
 
@@ -267,26 +288,6 @@ rofi.color-window:                   #2f1e2e, argb:36ef6155, argb:2fef6155
 rofi.separator-style:                dash
 ~~~
 
-# solarized.theme
-by Rasi
-
-## Screenshot
-
-![Screenshot](./Screenshots/solarized.png)
-
-## XResources
-
-~~~
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-rofi.color-window: #002b37, #002b37, #003642
-rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
-rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
-rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
-~~~
-
 # solarized_alternate.theme
 by Rasi
 
@@ -305,6 +306,26 @@ rofi.color-window: #002b37, #002b37, #003642
 rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
 rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
 rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
+~~~
+
+# solarized.theme
+by Rasi
+
+## Screenshot
+
+![Screenshot](./Screenshots/solarized.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
+rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
+rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
 ~~~
 
 # gruvbox-dark-hard.theme
