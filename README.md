@@ -235,6 +235,31 @@ rofi.color-window:                   argb:ee333333, #1aa,#1aa
 rofi.separator-style:                dash
 ~~~
 
+# Monokai.theme
+by milouse
+
+## Screenshot
+
+![Screenshot](./Screenshots/Monokai.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:00272822, #f8f8f2, argb:00272822, #141411, #f8f8f2
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:00272822, #f92672, argb:00272822, #f92672, #f8f8f2
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:00272822, #a6e22a, argb:00272822, #141411, #a6e22a
+! "Color scheme window" Set from: File
+rofi.color-window:                   argb:ee272822, #002b36, #e6db74
+! "Separator style (none, dash, solid)" Set from: File
+rofi.separator-style:                solid
+~~~
+
 # Paper.theme
 by qball
 
