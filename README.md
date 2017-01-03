@@ -57,6 +57,7 @@ by leofa
 ~~~
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
+! Copyright: 2017 leofa
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
 rofi.color-normal:                   argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
@@ -82,6 +83,7 @@ by leofa
 ~~~
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
+! Copyright: 2017 leofa
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
 rofi.color-normal:                   argb:0383c4a, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
