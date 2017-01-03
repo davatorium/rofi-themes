@@ -10,6 +10,10 @@ On [GitHub](https://github.com/DaveDavenport/rofi-themes/) click the fork button
 
 Make a local checkout of this new repository.
 
+```bash
+git clone --recursive {your repo}
+```
+
 ## Create a theme file
 
 Inside the new repository create a file containing the theme settings:
