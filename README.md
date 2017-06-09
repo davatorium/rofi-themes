@@ -198,6 +198,31 @@ rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
 rofi.separator-style:                solid
 ~~~
 
+# Dracula.theme
+by milouse
+
+## Screenshot
+
+![Screenshot](./Screenshots/Dracula.png)
+
+## XResources
+
+~~~
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:00282a36, #f8f8f2, argb:00373844, #44475a, #e2e2dc
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:00282a36, #ff79c6, argb:00373844, #ff79c6, #282a36
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:00282a36, #50fa7b, argb:00373844, #50fa7b, #282a36
+! "Color scheme window" Set from: File
+rofi.color-window:                   argb:ee282a36, #282a36, #f4f99d
+! "Separator style (none, dash, solid)" Set from: File
+rofi.separator-style:                solid
+~~~
+
 # glue_pro_blue.theme
 by Rasi
 
