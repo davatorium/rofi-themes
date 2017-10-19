@@ -4,7 +4,7 @@
 ! Copyright: Dave Davenport
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
+rofi.color-normal:                   argb:00f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
 ! "Color scheme for urgent row" Set from: File
 rofi.color-urgent:                   #f5f5f5, #d75f00, #d0d0d0, #d75f00, #f5f5f5
 ! "Color scheme for active row" Set from: File
