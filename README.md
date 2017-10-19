@@ -60,7 +60,7 @@ by leofa
 ! Copyright: 2017 leofa
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+rofi.color-normal:                   argb:031d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
 ! "Color scheme for urgent row" Set from: File
 rofi.color-urgent:                   argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
 ! "Color scheme for active row" Set from: File
@@ -86,11 +86,11 @@ by leofa
 ! Copyright: 2017 leofa
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0383c4a, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+rofi.color-normal:                   argb:00383c4a, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
 ! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:02d303b, #cc6666, argb:e52d303b, #a54242, #f9f9f9
+rofi.color-urgent:                   argb:002d303b, #cc6666, argb:e52d303b, #a54242, #f9f9f9
 ! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:02d303b, #b5bd68, argb:e42d303b, #8c9440, #f9f9f9
+rofi.color-active:                   argb:002d303b, #b5bd68, argb:e42d303b, #8c9440, #f9f9f9
 ! "Color scheme window" Set from: File
 rofi.color-window:                   argb:f22d303b, #7c8389, #1d1f21
 ! "Separator style (none, dash, solid)" Set from: XResources
@@ -187,11 +187,11 @@ by qball
 ! Copyright: Dave Davenport
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
+rofi.color-normal:                   argb:00000000, #dbdfbc, argb:00000000, #dbdfbc, #02143f
 ! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
+rofi.color-urgent:                   argb:00000000, #ff81ff, argb:00000000, #ff817f, #02143f
 ! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
+rofi.color-active:                   argb:00000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
 ! "Color scheme window" Set from: File
 rofi.color-window:                   argb:dd000021, #dbdfbc, #dbdfbc
 ! "Separator style (none, dash, solid)" Set from: XResources
@@ -259,11 +259,11 @@ by qball
 ! Copyright: Dave Davenport
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:07986cb, #e8eaf6, #283593, #3f51b5, #e8eaf6
+rofi.color-normal:                   argb:007986cb, #e8eaf6, #283593, #3f51b5, #e8eaf6
 ! "Color scheme for urgent row" Set from: File
-rofi.color-urgent:                   argb:0fdf6e3, #ffcdd2, #b71c1c, #ffcdd2, #b71c1c
+rofi.color-urgent:                   argb:00fdf6e3, #ffcdd2, #b71c1c, #ffcdd2, #b71c1c
 ! "Color scheme for active row" Set from: File
-rofi.color-active:                   argb:0fdf6e3, #b2ebf2, #006064, #b2ebf2, #006064
+rofi.color-active:                   argb:00fdf6e3, #b2ebf2, #006064, #b2ebf2, #006064
 ! "Color scheme window" Set from: File
 rofi.color-window:                   #1a237e, #e8eaf6, #e8eaf6
 ! "Separator style (none, dash, solid)" Set from: XResources
@@ -340,7 +340,7 @@ by qball
 ! Copyright: Dave Davenport
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:0f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
+rofi.color-normal:                   argb:00f5f5f5, #002b36, #d0d0d0, #4271ae, #f5f5f5
 ! "Color scheme for urgent row" Set from: File
 rofi.color-urgent:                   #f5f5f5, #d75f00, #d0d0d0, #d75f00, #f5f5f5
 ! "Color scheme for active row" Set from: File

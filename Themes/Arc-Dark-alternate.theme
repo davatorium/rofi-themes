@@ -4,7 +4,7 @@
 ! Copyright: 2017 leofa
 ! ------------------------------------------------------------------------------
 ! "Color scheme for normal row" Set from: File
-rofi.color-normal:                   argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+rofi.color-normal:                   argb:031d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
 ! "Color scheme for urgent row" Set from: File
 rofi.color-urgent:                   argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
 ! "Color scheme for active row" Set from: File
