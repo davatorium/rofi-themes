@@ -64,7 +64,7 @@
 ![Pop-Dark](https://53280.de/rofi/Pop-Dark.png)
 
 #### purple
-![purple](htps://53280.de/rofi/purple.png)
+![purple](https://53280.de/rofi/purple.png)
 
 #### sidebar
 ![sidebar](https://53280.de/rofi/sidebar.png)
