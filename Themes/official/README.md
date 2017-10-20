@@ -1,6 +1,6 @@
 ## Official Themes
 
-![Adapta Nokto](https://53281.de/rofi/Adapta-Nokto.png)
+![Adapta Nokto](https://53280.de/rofi/Adapta-Nokto.png)
 ![android notifications](https://53280.de/rofi/android_notification.png)
 ![Arc](https://53280.de/rofi/Arc.png)
 ![arthur](https://53280.de/rofi/arthur.png)
