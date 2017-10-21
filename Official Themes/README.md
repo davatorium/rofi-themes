@@ -31,7 +31,7 @@
 ![gruvbox-dark-hard](https://53280.de/rofi/gruvbox-dark-hard.png)
 
 #### gruvbox-dark
-![gruvbox-dark](https://53280.de/rofi/gruvbox-dark.png)
+![gruvbox-dark](https://53280.de/rofi/gruvbox-dark1.png)
 
 #### gruvbox-dark-soft
 ![gruvbox-dark-soft](https://53280.de/rofi/gruvbox-dark-soft.png)
