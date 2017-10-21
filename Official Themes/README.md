@@ -43,7 +43,7 @@
 ![gruvbox-light](https://53280.de/rofi/gruvbox-light.png)
 
 #### gruvbox-light-soft
-![gruvbox-light-soft](https://53280.de/rofi/gruvbox-light-soft1.png)
+![gruvbox-light-soft](https://53280.de/rofi/gruvbox-light-soft2.png)
 
 #### Indego
 ![Indego](https://53280.de/rofi/Indego1.png)
