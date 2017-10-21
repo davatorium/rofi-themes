@@ -37,16 +37,16 @@
 ![gruvbox-dark-soft](https://53280.de/rofi/gruvbox-dark-soft.png)
 
 #### gruvbox-light-hard
-![gruvbox-light-hard](https://53280.de/rofi/gruvbox-light-hard.png)
+![gruvbox-light-hard](https://53280.de/rofi/gruvbox-light-hard1.png)
 
 #### gruvbox-light
-![gruvbox-light](https://53280.de/rofi/gruvbox-light.png)
+![gruvbox-light](https://53280.de/rofi/gruvbox-light1.png)
 
 #### gruvbox-light-soft
-![gruvbox-light-soft](https://53280.de/rofi/gruvbox-light-soft.png)
+![gruvbox-light-soft](https://53280.de/rofi/gruvbox-light-soft1.png)
 
 #### Indego
-![Indego](https://53280.de/rofi/Indego.png)
+![Indego](https://53280.de/rofi/Indego1.png)
 
 #### lb
 ![lb](https://53280.de/rofi/lb.png)
