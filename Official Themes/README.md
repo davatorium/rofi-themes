@@ -40,7 +40,7 @@
 ![gruvbox-light-hard](https://53280.de/rofi/gruvbox-light-hard1.png)
 
 #### gruvbox-light
-![gruvbox-light](https://53280.de/rofi/gruvbox-light1.png)
+![gruvbox-light](https://53280.de/rofi/gruvbox-light.png)
 
 #### gruvbox-light-soft
 ![gruvbox-light-soft](https://53280.de/rofi/gruvbox-light-soft1.png)
