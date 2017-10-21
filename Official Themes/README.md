@@ -22,7 +22,7 @@
 ![DarkBlue](https://53280.de/rofi/DarkBlue.png)
 
 #### dmenu
-![dmenu](https://53280.de/rofi/dmenu.png)
+![dmenu](https://53280.de/rofi/dmenu1.png)
 
 #### glue_pro_blue
 ![glue_pro_blue](https://53280.de/rofi/glue_pro_blue.png)
