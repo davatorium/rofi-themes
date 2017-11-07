@@ -4,3 +4,6 @@
 #### flat-orange
 ![flat_orange](https://53280.de/rofi/flat_orange.png)
 
+#### royal-sky
+![royal_sky](https://i.imgur.com/7VehZME.png)
+
