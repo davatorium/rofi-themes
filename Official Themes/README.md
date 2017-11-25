@@ -1,5 +1,7 @@
 ## Official Themes
 
+These themes are shipped with latest rofi!
+
 #### Adapta Nokto
 ![Adapta Nokto](https://53280.de/rofi/Adapta-Nokto.png)
 
