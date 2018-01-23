@@ -1,0 +1,157 @@
+/******************************************************************************
+ * ROFI Color theme
+ * User: DeanPdx
+ * Copyright: Dean Davidson
+ ******************************************************************************/
+
+* {
+    /**** Solarized colors **** 
+    * NOTE: I am including all of them even though I am using a sub-set. I keep 
+    * tweaking my theme and having access to all of the colors here is handy. */
+
+    base03: #002b36;
+    base02: #073642;
+    base01: #586e75;
+    base00: #657b83;
+    base0: #839496;
+    base1: #93a1a1;
+    base2: #eee8d5;
+    base3: #fdf6e3;
+    yellow: #b58900;
+    orange: #cb4b16;
+    red: #dc322f;
+    magenta: #d33682;
+    violet: #6c71c4;
+    blue: #268bd2;
+    cyan: #2aa198;
+    green: #859900;
+
+    /* Solarized Darker Theme */
+    transparent-background: rgba ( 0, 0, 0, 0 % );
+    foreground:                  @magenta;
+    background:                  rgba ( 0, 0, 0, 90 % );
+
+    normal-foreground:           @foreground;
+    normal-background:           @transparent-background;
+    active-foreground:           @green;
+    active-background:           @transparent-background;
+    urgent-foreground:           @red;
+    urgent-background:           @transparent-background;
+
+    selected-normal-foreground:  @magenta;
+    selected-normal-background:  @base02;
+    selected-active-foreground:  @green;
+    selected-active-background:  @base02;
+    selected-urgent-foreground:  @red;
+    selected-urgent-background:  @base02;
+    
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @transparent-background;
+    alternate-active-foreground: @active-foreground;
+    alternate-active-background: @transparent-background;
+    alternate-urgent-foreground: @urgent-foreground;
+    alternate-urgent-background: @transparent-background;
+
+    separatorcolor:              @blue;
+
+    /* Main element styles */
+    border-color:                @blue;
+    spacing:                     2;
+    background-color:            @transparent-background;
+}
+#window {
+    background-color: @background;
+    border:           1;
+    padding:          20;
+}
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+#message {
+    border:       1px dash 0px 0px ;
+    border-color: @separatorcolor;
+    padding:      1px ;
+}
+#textbox {
+    text-color: @foreground;
+}
+#listview {
+    fixed-height: 0;
+    border:       1px dash 0px 0px ;
+    border-color: @separatorcolor;
+    spacing:      2px ;
+    scrollbar:    false;
+    padding:      8px 0px 0px 0px;
+}
+#element {
+    border:  0;
+    padding: 1px 0px 1px 1px;
+}
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color:       @urgent-foreground;
+}
+#element.normal.active {
+    background-color: @active-background;
+    text-color:       @active-foreground;
+}
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color:       @selected-urgent-foreground;
+}
+#element.selected.active {
+    background-color: @selected-active-background;
+    text-color:       @selected-active-foreground;
+}
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+#element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color:       @alternate-urgent-foreground;
+}
+#element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color:       @alternate-active-foreground;
+}
+#scrollbar {
+    width:        4px ;
+    border:       0;
+    handle-width: 8px ;
+    padding:      0;
+}
+#sidebar {
+    border:       2px dash 0px 0px ;
+    border-color: @separatorcolor;
+}
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#inputbar {
+    spacing:    0;
+    text-color: @normal-foreground;
+    padding:    1px ;
+}
+#case-indicator {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+#entry {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+#prompt {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
