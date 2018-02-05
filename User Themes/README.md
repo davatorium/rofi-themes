@@ -8,4 +8,7 @@
 ![royal_sky](https://53280.de/rofi/royal_blue.png)
 
 #### solarized-darker
-![solarized_darker](https://i.imgur.com/7otjzla.png)
+![solarized_darker](https://53280.de/rofi/solarized_darker.png)
+
+#### sidetab
+![sidetab](https://53280.de/rofi/sidetab.png)
