@@ -4,8 +4,8 @@
 #### flat-orange
 ![flat_orange](https://53280.de/rofi/flat_orange.png)
 
-#### royal-sky
-![royal_sky](https://53280.de/rofi/royal_blue.png)
+#### oxide
+![oxide](https://53280.de/rofi/oxide.png)
 
 #### solarized-darker
 ![solarized_darker](https://53280.de/rofi/solarized_darker.png)

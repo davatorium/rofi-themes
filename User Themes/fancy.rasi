@@ -4,7 +4,7 @@
  */
 
 /* global settings and color variables */
-* { 
+* {
     blue:        #A7c6E2;
     blue-trans:  #A7c6e2aa;
     darkblue:    #005F87;
@@ -27,22 +27,22 @@
     line-style: "none";
 }
 
-#prompt-box {
+prompt-box {
 	background-color: transparent;
 }
 
-#prompt {
+prompt {
 	background-color: transparent;
 	text-color: @white;
 }
 
-#window {
+window {
     border-radius: 10px;
     background-color: @transparent;
     border: 2;
     color: @grey;
 }
-#mainbox {
+mainbox {
     padding: 0px;
     background-color: @blue-trans;
     color: @grey;
@@ -50,13 +50,13 @@
     spacing: 0%;
 }
 
-#listview {
+listview {
     // Looks.
     border-radius: 10px;
     border: 5px 5px 5px 5px;
     padding: 20px 20px 20px 20px;
     margin: 20px 30px 30px 30px;
-    background-color: @orange; 
+    background-color: @orange;
     // Enable scrollbar
     scrollbar: false;
     scrollbar-width: 5px;
@@ -64,58 +64,57 @@
     reverse: false;
     color: #000000;
     spacing: 0.3em;
-
 }
-#scrollbar {
+scrollbar {
     color: @black;
     background-color: @blue;
     padding: 1px;
 }
-#element {
+element {
     border: 0px;
     padding: 0px;
     margin: 0px;
     color: @black;
     background-color: @blue;
 }
-#element.normal.normal {
+element normal.normal {
     color: @black;
     background-color: @orange;
 }
-#element.normal.urgent {
+element normal.urgent {
     color: @urgent;
     background-color: @light-grey;
 }
-#element.normal.active {
+element normal.active {
     color: @active;
     background-color: @light-grey;
 }
-#element.selected.normal {
+element selected.normal {
     border-radius: 0px;
     color: @black;
     background-color: @dark-orange;
 }
-#element.selected.urgent {
+element selected.urgent {
     color: @light-grey;
     background-color: @urgent;
 }
-#element.selected.active {
+element selected.active {
     color: @light-grey;
     background-color: @active;
 }
-#element.alternate.normal {
+element alternate.normal {
     color: @black;
     background-color: @orange;
 }
-#element.alternate.urgent {
+element alternate.urgent {
     color: @urgent;
     background-color: @medium-grey;
 }
-#element.alternate.active {
+element alternate.active {
     color: @active;
     background-color: @medium-grey;
 }
-#inputbar {
+inputbar {
     spacing: 0;
     background-color: #88003300;
     border: 0px 0px 2px 0px;
@@ -126,27 +125,27 @@
     end: false;
 }
 
-#separator {
+separator {
     background-color: @blue;
     color: #00000000;
 }
-#prompt.normal.normal {
+prompt normal.normal {
     background-color: #00000000;
     color: #ffffff;
     padding: 0px;
 }
-#entry.normal.normal {
+entry normal.normal {
     background-color: #00000000;
     color: #ffffff;
     padding: 0px;
 }
-#case-indicator.normal.normal {
+case-indicator normal.normal {
     background-color: #00000000;
     color: #ffffff;
     padding: 0px;
 }
-    
-#message {                                    
+
+message {
 	margin: 30px 30px 30px 30px;
 	padding: 20px 30px 20px 20px;
     padding:      1px ;
@@ -154,7 +153,7 @@
     border: 5px 5px 5px 5px;
 }
 
-#prompt-colon {
+prompt-colon {
     spacing:    0;
     enabled: false;
 }
