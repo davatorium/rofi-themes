@@ -17,7 +17,7 @@ configuration {
 	selbg:                       #215d9c;
 	actbg:                       #262626;
 	urgbg:                       #e53935;
-	winbg:			                 #26c6da;
+	winbg:			     #26c6da;
 
 	selected-normal-foreground:  @winbg;
 	normal-foreground:           @text-color;
