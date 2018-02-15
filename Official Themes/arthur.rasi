@@ -112,6 +112,9 @@ configuration {
     text-font: inherit;
     text-color:inherit;
 }
+#prompt {
+    margin:     0px 0.3em 0em 0em ;
+}
 #listview {
     padding: 8px;
     border-radius: 0px 0px 15px 15px;
