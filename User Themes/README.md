@@ -14,4 +14,4 @@
 ![sidetab](https://53280.de/rofi/sidetab.png)
 
 #### material
-![material](https://i.imgur.com/LNnYi6H.png)
+![material](https://53280.de/rofi/material.png)
