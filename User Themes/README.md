@@ -15,3 +15,6 @@
 
 #### material
 ![material](https://53280.de/rofi/material.png)
+
+#### arc-red-dark
+![arc-red-dark](https://i.imgur.com/ikJcSUa.png)
