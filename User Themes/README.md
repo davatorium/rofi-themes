@@ -18,3 +18,6 @@
 
 #### arc-red-dark
 ![arc-red-dark](https://53280.de/rofi/arc-red.png)
+
+#### onedark
+![onedark](https://i.imgur.com/d2jmZ06.png)
