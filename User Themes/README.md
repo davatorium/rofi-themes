@@ -12,3 +12,9 @@
 
 #### sidetab
 ![sidetab](https://53280.de/rofi/sidetab.png)
+
+#### material
+![material](https://53280.de/rofi/material.png)
+
+#### arc-red-dark
+![arc-red-dark](https://53280.de/rofi/arc-red.png)
