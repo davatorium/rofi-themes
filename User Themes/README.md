@@ -19,5 +19,8 @@
 #### arc-red-dark
 ![arc-red-dark](https://53280.de/rofi/arc-red.png)
 
+#### onedark
+![onedark](https://53280.de/rofi/onedark.png)
+
 #### ribbon
 ![ribbon](https://53280.de/rofi/ribbon.png)
