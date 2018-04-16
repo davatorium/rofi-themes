@@ -18,3 +18,6 @@
 
 #### arc-red-dark
 ![arc-red-dark](https://53280.de/rofi/arc-red.png)
+
+#### ribbon
+![ribbon](https://53280.de/rofi/ribbon.png)
