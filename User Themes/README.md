@@ -20,4 +20,7 @@
 ![arc-red-dark](https://53280.de/rofi/arc-red.png)
 
 #### onedark
-![onedark](https://i.imgur.com/d2jmZ06.png)
+![onedark](https://53280.de/rofi/onedark.png)
+
+#### ribbon
+![ribbon](https://53280.de/rofi/ribbon.png)
