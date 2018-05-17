@@ -5,37 +5,34 @@
 
 /* global settings and color variables */
 * {
-    blue:        #A7c6E2;
-    blue-trans:  #A7c6e2aa;
-    darkblue:    #005F87;
-    white:       #FFFFFF;
-    green:       #00330088;
-    black:       #000000;
-    grey:        #444444;
-    orange:      #FFD391;
-    dark-orange: #FFA664;
-    light-grey:  #F5F5F5;
-    medium-grey: #D0D0D0;
-    dark-grey:   #002B36;
-    urgent:      #D75F00;
-    active:      #005F87;
-    transparent: #000000aa;
-    spacing: 0em;
-    font: "Iosevka Term Regular 14";
-    padding: 0px;
+    blue:             #A7c6E2;
+    blue-trans:       #A7c6e2aa;
+    darkblue:         #005F87;
+    white:            #FFFFFF;
+    green:            #00330088;
+    black:            #000000;
+    grey:             #444444;
+    orange:           #FFD391;
+    dark-orange:      #FFA664;
+    light-grey:       #F5F5F5;
+    medium-grey:      #D0D0D0;
+    dark-grey:        #002B36;
+    urgent:           #D75F00;
+    active:           #005F87;
+    transparent:      #000000aa;
+    spacing:          0;
+    font:             "Iosevka Term Regular 14";
+    padding:          0px;
     background-color: @white;
-    line-style: "none";
+    line-style:       "none";
 }
-
 prompt-box {
-	background-color: transparent;
+    background-color: transparent;
 }
-
 prompt {
-	background-color: transparent;
-	text-color: @white;
+    background-color: transparent;
+    text-color:       @white;
 }
-
 window {
     border-radius: 10px;
     background-color: @transparent;
@@ -49,112 +46,107 @@ mainbox {
     border: 2px;
     spacing: 0%;
 }
-
 listview {
     // Looks.
-    border-radius: 10px;
-    border: 5px 5px 5px 5px;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 30px 30px 30px;
+    border-radius:    10px;
+    border:           5px 5px 5px 5px;
+    padding:          20px 20px 20px 20px;
+    margin:           20px 30px 30px 30px;
     background-color: @orange;
     // Enable scrollbar
-    scrollbar: false;
-    scrollbar-width: 5px;
-    fixed-height: true;
-    reverse: false;
-    color: #000000;
-    spacing: 0.3em;
+    scrollbar:        false;
+    scrollbar-width:  5px;
+    fixed-height:     true;
+    reverse:          false;
+    color:            #000000;
+    spacing:          0.3em;
 }
 scrollbar {
-    color: @black;
+    color:            @black;
     background-color: @blue;
-    padding: 1px;
+    padding:          1px;
 }
 element {
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-    color: @black;
+    border:           0px;
+    padding:          0px;
+    margin:           0px;
+    color:            @black;
     background-color: @blue;
 }
 element normal.normal {
-    color: @black;
+    color:           @black;
     background-color: @orange;
 }
 element normal.urgent {
-    color: @urgent;
+    color:            @urgent;
     background-color: @light-grey;
 }
 element normal.active {
-    color: @active;
+    color:            @active;
     background-color: @light-grey;
 }
 element selected.normal {
-    border-radius: 0px;
-    color: @black;
+    border-radius:    0px;
+    color:            @black;
     background-color: @dark-orange;
 }
 element selected.urgent {
-    color: @light-grey;
+    color:            @light-grey;
     background-color: @urgent;
 }
 element selected.active {
-    color: @light-grey;
+    color:            @light-grey;
     background-color: @active;
 }
 element alternate.normal {
-    color: @black;
+    color:            @black;
     background-color: @orange;
 }
 element alternate.urgent {
-    color: @urgent;
+    color:            @urgent;
     background-color: @medium-grey;
 }
 element alternate.active {
-    color: @active;
+    color:            @active;
     background-color: @medium-grey;
 }
 inputbar {
-    spacing: 0;
+    spacing:          0;
     background-color: #88003300;
-    border: 0px 0px 2px 0px;
-    border-radius: 0px;
-    padding: 5px 10px 5px 35px;
+    border:           0px 0px 2px 0px;
+    border-radius:    0px;
+    padding:          5px 10px 5px 35px;
     background-color: #00330088;
-    color: @black;
-    end: false;
+    color:            @black;
+    end:              false;
 }
-
 separator {
     background-color: @blue;
-    color: #00000000;
+    color:            #00000000;
 }
 prompt normal.normal {
     background-color: #00000000;
-    color: #ffffff;
-    padding: 0px;
+    color:            #ffffff;
+    padding:          0px;
 }
 entry normal.normal {
     background-color: #00000000;
-    color: #ffffff;
-    padding: 0px;
+    color:            #ffffff;
+    padding:          0px;
 }
 case-indicator normal.normal {
     background-color: #00000000;
-    color: #ffffff;
-    padding: 0px;
+    color:            #ffffff;
+    padding:          0px;
 }
-
 message {
-	margin: 30px 30px 30px 30px;
-	padding: 20px 30px 20px 20px;
-    padding:      1px ;
+    margin:        30px 30px 30px 30px;
+    padding:       20px 30px 20px 20px;
+    padding:       1px;
     border-radius: 10px;
-    border: 5px 5px 5px 5px;
+    border:        5px 5px 5px 5px;
 }
-
 prompt-colon {
-    spacing:    0;
+    spacing: 0;
     enabled: false;
 }
-
