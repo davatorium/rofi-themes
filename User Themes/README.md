@@ -24,3 +24,6 @@
 
 #### ribbon
 ![ribbon](https://53280.de/rofi/ribbon.png)
+
+#### rezlooks
+![rezlooks](https://53280.de/rofi/rezlooks.png)

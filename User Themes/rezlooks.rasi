@@ -1,0 +1,222 @@
+/**
+ * ROFI Color theme
+ * User: thorsten
+ * Inspired by the rezlooks gtk theme
+ */
+* {
+    selected-normal-foreground:  rgba ( 245, 245, 245, 100 % );
+    foreground:                  #3d3d3d;
+    normal-foreground:           @foreground;
+    textbox-background:          rgba( 255, 255, 255, 95% );
+    alternate-normal-background: rgba ( 150, 150, 150, 20%) ;
+    red:                         rgba ( 220, 50, 47, 100 % );
+    selected-urgent-foreground:  rgba ( 245, 245, 245, 100 % );
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    urgent-foreground:           rgba ( 215, 95, 0, 100 % );
+    alternate-urgent-background: rgba ( 208, 208, 208, 100 % );
+    active-foreground:           #2D661A ;
+    lightbg:                     rgba ( 238, 232, 213, 100 % );
+    selected-active-foreground:  rgba ( 245, 245, 245, 100 % );
+    alternate-active-background: rgba ( 208, 208, 208, 100 % );
+    /*background:                  rgba ( 245, 245, 245, 100 % ); */
+    background:                  #F2F2F2;
+    alternate-normal-foreground: @foreground;
+    dark-border-color:           #8C836E;
+    normal-background:           transparent;
+    lightfg:                     rgba ( 88, 104, 117, 100 % );
+    selected-normal-background:  rgba ( 152, 177, 127, 100 % );
+    border-color:                rgba ( 80, 80,80, 100%) ;
+    spacing:                     2;
+    separatorcolor:               #D3C8AE;
+    urgent-background:           rgba ( 245, 245, 245, 100 % );
+    selected-urgent-background:  rgba ( 215, 95, 0, 100 % );
+    alternate-urgent-foreground: @urgent-foreground;
+    background-color:            transparent;
+    alternate-active-foreground: @active-foreground;
+    active-background:           rgba ( 245, 245, 245, 100 % );
+    selected-active-background:  #2B591C;
+    font: "Bitstream Vera Sans 8";
+    monospace: "Bitstream Vera Sans Mono 8";
+}
+
+#window {
+    background-color: transparent;
+    border:           1;
+    padding:          0px;
+    spacing: 0;
+    children: [ windowinnerborder ];
+}
+
+#windowinnerborder {
+    border: 3px;
+    border-color: #789C54;
+    children: [ tabcontent ];
+}
+
+#tabcontent {
+    children: [ topborder, sidebar, mainbox ];
+    background-color: transparent;
+    spacing: 0;
+    border: 8px;
+    border-color: @background;
+    padding: 0px;
+}
+
+#topborder {
+    border-color: @dark-border-color;
+    expand: false;
+    border: 1px 0px 0px 0px;
+    height: 0px;
+}
+
+#mainbox {
+    background-color: transparent;
+    border:  0;
+    padding: 0px 8px 8px 8px;
+    spacing: 0px;
+    children:   [ inputbarBorder, message, listviewBorder ];
+    margin: 0px;
+    padding: 0px;
+    border: 0px 1px 1px 1px;
+    border-color: @dark-border-color;
+}
+
+#inputbarBorder {
+    border: 8px;
+    border-color: @background;
+    children: [ inputbar ];
+    expand: false;
+}
+
+#listviewBorder {
+    border: 0px 8px 8px 8px;
+    border-color: @background;
+    children: [ listview ];
+    expand: false;
+}
+
+#message {
+    padding:      3px ;
+    border: 0px 8px 8px 8px;
+    border-color: @background;
+    background-color: @background;
+}
+
+#textbox {
+    text-color: @foreground;
+    font: @monospace;
+}
+#listview {
+    fixed-height: 0;
+    border:       1px;
+    border-color: @separatorcolor;
+    spacing:      2px ;
+    scrollbar:    true;
+    padding:      2px ;
+    background-color: @textbox-background;
+}
+#element {
+    border:  0;
+    padding: 3px ;
+    font: @monospace;
+}
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color:       @urgent-foreground;
+}
+#element.normal.active {
+    background-color: @active-background;
+    text-color:       @active-foreground;
+}
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color:       @selected-urgent-foreground;
+}
+#element.selected.active {
+    background-color: @selected-active-background;
+    text-color:       @selected-active-foreground;
+}
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+#element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color:       @alternate-urgent-foreground;
+}
+#element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color:       @alternate-active-foreground;
+}
+#scrollbar {
+    width:        4px ;
+    border:       0;
+    handle-width: 8px ;
+    padding:      0;
+}
+#sidebar {
+    border:       0px 0px 0px 1px;
+    border-color: @dark-border-color;
+    spacing: 0px;
+    padding: 0px 0px 0px 0px;
+}
+#button {
+    margin: 0px 0px 0px 0px;
+    background-color: #DBDBDB;
+    border: 0px 1px 1px 0px;
+    border-color: @dark-border-color;
+    padding: 8px 0px 8px 0px;
+}
+
+#button.selected {
+    margin: 0px 0px 0px 0px;
+    border: 3px 1px 0px 0px;
+    background-color: @background;
+    text-color:       #212121;
+    border-color: @dark-border-color;
+}
+#inputbar {
+    spacing:    0px;
+    text-color: @normal-foreground;
+    padding:    0px ;
+    border-color: @separatorcolor;
+    border: 1px;
+    background-color: transparent;
+}
+
+#case-indicator { padding: 2px; }
+#prompt { padding: 2px 6px; }
+#entry { padding: 2px 6px; }
+
+#case-indicator {
+    spacing:    0;
+    text-color: @normal-foreground;
+    background-color: @textbox-background;
+}
+#entry {
+    spacing:    0;
+    text-color: @normal-foreground;
+    background-color: @textbox-background;
+}
+#prompt {
+    spacing:    0;
+    background-color: @background ;
+    text-color: @normal-foreground;
+    border: 0px 1px 0px 0px;
+    border-color: @separatorcolor;
+    text: @monospace;
+    highlight: bold red;
+}
+#inputbar {
+    children:   [ prompt,entry,case-indicator ];
+}
+
+// vim: ft=css
