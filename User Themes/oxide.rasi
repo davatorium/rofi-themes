@@ -3,35 +3,36 @@
  * User: dikiaap
  * Copyright: Diki Ananta
  **/
+
 * {
     selected-normal-foreground:  @lightfg;
-    foreground:                  rgba ( 196, 202, 212, 100 % );
+    foreground:                  rgba ( 196, 202, 212, 100% );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 42, 42, 42, 100 % );
-    red:                         rgba ( 194, 65, 65, 100 % );
+    alternate-normal-background: rgba ( 42, 42, 42, 100% );
+    red:                         rgba ( 194, 65, 65, 100% );
     selected-urgent-foreground:  @lightfg;
-    blue:                        rgba ( 43, 131, 166, 100 % );
+    blue:                        rgba ( 43, 131, 166, 100% );
     urgent-foreground:           @lightfg;
     alternate-urgent-background: @red;
     active-foreground:           @lightfg;
     lightbg:                     @foreground;
     selected-active-foreground:  @lightfg;
     alternate-active-background: @blue;
-    background:                  rgba ( 33, 33, 33, 100 % );
+    background:                  rgba ( 33, 33, 33, 100% );
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
-    lightfg:                     rgba ( 249, 249, 249, 100 % );
-    selected-normal-background:  rgba ( 90, 90, 90, 100 % );
+    lightfg:                     rgba ( 249, 249, 249, 100% );
+    selected-normal-background:  rgba ( 90, 90, 90, 100% );
     border-color:                @foreground;
-    spacing:                     2;
-    separatorcolor:              rgba ( 183, 183, 183, 100 % );
+    spacing:                     2px;
+    separatorcolor:              rgba ( 183, 183, 183, 100% );
     urgent-background:           @red;
-    selected-urgent-background:  rgba ( 214, 78, 78, 100 % );
+    selected-urgent-background:  rgba ( 214, 78, 78, 100% );
     alternate-urgent-foreground: @urgent-foreground;
-    background-color:            rgba ( 0, 0, 0, 0 % );
+    background-color:            rgba ( 0, 0, 0, 0% );
     alternate-active-foreground: @active-foreground;
     active-background:           @blue;
-    selected-active-background:  rgba ( 39, 141, 182, 100 % );
+    selected-active-background:  rgba ( 39, 141, 182, 100% );
 }
 window {
     background-color: @background;
@@ -101,7 +102,7 @@ element alternate.active {
 scrollbar {
     width:        4px;
     border:       0;
-    handle-color: rgba ( 85, 85, 85, 100 % );
+    handle-color: rgba ( 85, 85, 85, 100% );
     handle-width: 8px;
     padding:      0;
 }
@@ -121,7 +122,7 @@ inputbar {
     spacing:    0px;
     text-color: @normal-foreground;
     padding:    1px;
-    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    children: [ prompt,textbox-prompt-colon,entry,case-indicator ];
 }
 case-indicator {
     spacing:    0;

@@ -9,27 +9,27 @@
     * NOTE: I am including all of them even though I am using a sub-set. I keep
     * tweaking my theme and having access to all of the colors here is handy. */
 
-    base03: #002b36;
-    base02: #073642;
-    base01: #586e75;
-    base00: #657b83;
-    base0: #839496;
-    base1: #93a1a1;
-    base2: #eee8d5;
-    base3: #fdf6e3;
-    yellow: #b58900;
-    orange: #cb4b16;
-    red: #dc322f;
-    magenta: #d33682;
-    violet: #6c71c4;
-    blue: #268bd2;
-    cyan: #2aa198;
-    green: #859900;
+    base03:                      #002b36;
+    base02:                      #073642;
+    base01:                      #586e75;
+    base00:                      #657b83;
+    base0:                       #839496;
+    base1:                       #93a1a1;
+    base2:                       #eee8d5;
+    base3:                       #fdf6e3;
+    yellow:                      #b58900;
+    orange:                      #cb4b16;
+    red:                         #dc322f;
+    magenta:                     #d33682;
+    violet:                      #6c71c4;
+    blue:                        #268bd2;
+    cyan:                        #2aa198;
+    green:                       #859900;
 
     /* Solarized Darker Theme */
-    transparent-background: rgba ( 0, 0, 0, 0 % );
+    transparent-background:      rgba ( 0, 0, 0, 0% );
     foreground:                  @magenta;
-    background:                  rgba ( 0, 0, 0, 90 % );
+    background:                  rgba ( 0, 0, 0, 90% );
 
     normal-foreground:           @foreground;
     normal-background:           @transparent-background;
@@ -56,31 +56,31 @@
 
     /* Main element styles */
     border-color:                @blue;
-    spacing:                     2;
+    spacing:                     2px;
     background-color:            @transparent-background;
 }
 window {
     background-color: @background;
-    border:           1;
-    padding:          20;
+    border:           1px;
+    padding:          20px;
 }
 mainbox {
     border:  0;
     padding: 0;
 }
 message {
-    border:       1px dash 0px 0px ;
+    border:       1px dash 0px 0px;
     border-color: @separatorcolor;
-    padding:      1px ;
+    padding:      1px;
 }
 textbox {
     text-color: @foreground;
 }
 listview {
     fixed-height: 0;
-    border:       1px dash 0px 0px ;
+    border:       1px dash 0px 0px;
     border-color: @separatorcolor;
-    spacing:      2px ;
+    spacing:      2px;
     scrollbar:    false;
     padding:      8px 0px 0px 0px;
 }
@@ -125,13 +125,13 @@ element alternate.active {
     text-color:       @alternate-active-foreground;
 }
 scrollbar {
-    width:        4px ;
+    width:        4px;
     border:       0;
-    handle-width: 8px ;
+    handle-width: 8px;
     padding:      0;
 }
 sidebar {
-    border:       2px dash 0px 0px ;
+    border:       2px dash 0px 0px;
     border-color: @separatorcolor;
 }
 button selected {
@@ -141,7 +141,7 @@ button selected {
 inputbar {
     spacing:    0;
     text-color: @normal-foreground;
-    padding:    1px ;
+    padding:    1px;
 }
 case-indicator {
     spacing:    0;
