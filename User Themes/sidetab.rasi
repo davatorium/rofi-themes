@@ -53,7 +53,7 @@ window {
 
 mainbox {
 	spacing:  0.8em;
-	children: [ entry,listview,sidebar ];
+	children: [ entry,listview,mode-switcher ];
 }
 
 button { padding: 5px 2px; }

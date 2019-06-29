@@ -110,7 +110,7 @@ scrollbar {
    handle-width: 15px;
 }
 
-sidebar {
+mode-switcher {
    background-color: @blackwidget;
 }
 
