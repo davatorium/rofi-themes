@@ -13,28 +13,31 @@ configuration {
 
 * {
         background-color:           #222d32;
-        text-color:                 #ffffff;
+        selected-text-color:        #ffffff;
+        text-color:                 #cfd8dc;
 
         accent-color:               #00bcd4;
-        accent2-color:              #4db6ac;
+        second-accent-color:        #4db6ac;
         hover-color:                #39454b;
         urgent-color:               #ff5252;
-        window-color:               #ffffff;
 
-        selected-normal-foreground: @window-color;
-        normal-foreground:          @text-color;
-        selected-normal-background: @hover-color;
-        normal-background:          @background-color;
-
-        selected-urgent-foreground: @background-color;
-        urgent-foreground:          @text-color;
-        selected-urgent-background: @urgent-color;
-        urgent-background:          @background-color;
-
-        selected-active-foreground: @window-color;
-        active-foreground:          @text-color;
-        selected-active-background: @hover-color;
+        active-text:                @selected-text-color;
         active-background:          @accent-color;
+        selected-active-text:       @selected-text-color;
+        selected-active-background: @hover-color;
+        selected-active-border:     @accent-color;
+
+        normal-text:                @text-color;
+        normal-background:          @background-color;
+        selected-normal-text:       @selected-text-color;
+        selected-normal-background: @hover-color;
+        selected-normal-border:     @second-accent-color;
+
+        urgent-text:                @selected-text-color;
+        urgent-background:          @urgent-color;
+        selected-urgent-text:       @selected-text-color;
+        selected-urgent-background: @hover-color;
+        selected-urgent-border:     @urgent-color;
 }
 
 #window {
@@ -57,51 +60,56 @@ element {
         padding: 8px;
 }
 
+element normal.active {
+        background-color: @active-background;
+        text-color:       @active-text;
+}
+
 element normal.normal {
         background-color: @normal-background;
-        text-color:       @normal-foreground;
+        text-color:       @normal-text;
 }
 
 element normal.urgent {
         background-color: @urgent-background;
-        text-color:       @urgent-foreground;
+        text-color:       @urgent-text;
 }
 
-element normal.active {
-        background-color: @active-background;
-        text-color:       @active-foreground;
-}
-
-element selected.normal {
-        background-color: @selected-normal-background;
-        text-color:       @selected-normal-foreground;
-        border:           0 4px solid 0 0;
-        border-color:     @accent2-color;
-}
-
-element selected.urgent {
-        background-color: @selected-urgent-background;
-        text-color:       @selected-urgent-foreground;
+element selected {
+        border: 0 4px solid 0 0;
 }
 
 element selected.active {
         background-color: @selected-active-background;
-        text-color:       @selected-active-foreground;
+        text-color:       @selected-active-text;
+        border-color:     @selected-active-border;
 }
 
-element alternate.normal {
-        background-color: @normal-background;
-        text-color:       @normal-foreground;
+element selected.normal {
+        background-color: @selected-normal-background;
+        text-color:       @selected-normal-text;
+        border-color:     @selected-normal-border;
 }
 
-element alternate.urgent {
-        background-color: @urgent-background;
-        text-color:       @urgent-foreground;
+element selected.urgent {
+        background-color: @selected-urgent-background;
+        text-color:       @selected-urgent-text;
+        border-color:     @selected-urgent-border;
 }
 
 element alternate.active {
         background-color: @active-background;
-        text-color:       @active-foreground;
+        text-color:       @active-text;
+}
+
+element alternate.normal {
+        background-color: @normal-background;
+        text-color:       @normal-text;
+}
+
+element alternate.urgent {
+        background-color: @urgent-background;
+        text-color:       @urgent-text;
 }
 
 button {
