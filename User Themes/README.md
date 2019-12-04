@@ -29,4 +29,4 @@
 ![rezlooks](https://53280.de/rofi/rezlooks.png)
 
 #### flamingo
-![flamingo](https://raw.githubusercontent.com/keystroke3/dotfiles/master/rofi/flamingo.png)
+![flamingo](https://53280.de/rofi/flamingo.png)
