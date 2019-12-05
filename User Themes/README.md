@@ -30,3 +30,6 @@
 
 #### flamingo
 ![flamingo](https://53280.de/rofi/flamingo.png)
+
+#### joshbox
+![joshbox](http://josh.sh/joshbox.png)
