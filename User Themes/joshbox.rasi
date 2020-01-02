@@ -1,0 +1,139 @@
+/*
+ *  joshbox
+ */
+
+configuration {
+  display-ssh: "";
+  display-run: "";
+  display-drun: "";
+  display-window: "";
+  display-combi: "";
+  display-calc: "";
+  display-file-browser: "";
+  display-top: "";
+}
+
+
+* {
+  // global properties
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  highlight: underline bold rgba(225, 255, 0, 1);
+
+  // variables
+  foreground: #ffffff;
+  entryNormalBgColor: rgba(0, 0, 0, 0);
+  entrySelectedBgColor: rgba(237, 40, 128, 0.55);
+  entrySelectedLightBgColor: rgba(237, 40, 128, 0.35);
+  entryActiveBgColor: rgba(130, 100, 20, 0.55);
+  entryActiveLightBgColor: rgba(130, 100, 20, 0.35);
+  entryUrgentBgColor: rgba(180, 30, 15, 0.55);
+  entryUrgentLightBgColor: rgba(180, 30, 15, 0.35);
+}
+
+window {
+  spacing: 0;
+  location: center;
+  anchor: center;
+  transparency: "screenshot";
+  font: "SF Mono Regular 10";
+  children: [ mainbox ];
+}
+
+  mainbox {
+    children: [ inputbar, mode-switcher, list ];
+  }
+
+    inputbar {
+      margin: 0 0 20px 0;
+      padding: 15px 20px;
+
+      background-color: rgba(0, 0, 0, 0.75);
+
+      border: 0;
+      border-color: rgb(255, 255, 255, 0);
+      border-radius: 8px;
+
+      children: [ prompt, entry ];
+    }
+
+      prompt {
+        margin: 0.02em 0 0 0;
+        color: rgba(255, 23, 131, 0.8);
+        font: "SF Mono Heavy 18";
+      }
+
+      entry {
+        margin: 0 0 0 40px;
+        color: #ffffff;
+        font: "SF Mono Bold 18";
+      }
+
+    mode-switcher {
+      background-color: rgba(51, 51, 51, 0.85);
+    }
+
+      button {
+        padding: 4px 0;
+        font: "SF Mono Regular 14";
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      button selected {
+        font: "SF Mono Bold 14";
+        color: rgba(255, 255, 255, 1);
+      }
+
+  list {
+    background-color: rgba(0, 0, 0, 0.8);
+    children: [ message, listview ];
+  }
+
+    message {
+      children: [ textbox ];
+    }
+
+      textbox {
+        margin: 0 0 5px 0;
+        padding: 10px 15px 10px 15px;
+      }
+
+    listview {
+      fixed-height: false;
+      dynamic: true;
+      cycle: true;
+      scrollbar: false;
+    }
+
+      element {
+        padding: 5px 20px;
+        background-color: @entryNormalBgColor;
+      }
+
+        element selected {
+          background-color: @entrySelectedBgColor;
+        }
+
+        element active {
+          background-color: @entryActiveLightBgColor;
+        }
+
+        element selected active {
+          background-color: @entryActiveBgColor;
+        }
+
+        element urgent {
+          background-color: @entryUrgentLightBgColor;
+        }
+
+        element urgent active {
+          background-color: @entryUrgentBgColor;
+        }
+
+        element-icon {
+          padding: 0 8px 0 0;
+          size: 26;
+        }
+
+
+// vim: ft=scss
