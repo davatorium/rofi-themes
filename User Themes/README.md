@@ -28,5 +28,8 @@
 #### rezlooks
 ![rezlooks](https://53280.de/rofi/rezlooks.png)
 
+#### slate
+![slate](https://53280.de/rofi/slate.png)
+
 #### flamingo
 ![flamingo](https://53280.de/rofi/flamingo.png)
