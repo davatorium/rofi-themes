@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-xdg=${${XDG_DATA_HOME}:-${HOME}/.local/share}
-DIRECTORY="${xdg}/rofi/themes/}"
+xdg=${XDG_DATA_HOME:-${HOME}/.local/share}
+DIRECTORY="${xdg}/rofi/themes/"
 
 if [ ! -d "${DIRECTORY}" ]
 then
