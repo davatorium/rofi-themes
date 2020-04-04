@@ -33,3 +33,6 @@
 
 #### flamingo
 ![flamingo](https://53280.de/rofi/flamingo.png)
+
+#### cloud
+![cloud](https://53280.de/rofi/cloud.png)
