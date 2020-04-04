@@ -1,0 +1,164 @@
+/**Customized by Rapteon; Date: 2019-01-04**/
+
+/**
+	Hint:
+	Change the values in the first block of variables(below) before...
+	...individually changing values in the components.
+	
+	'lightbg' changes the border color and the text color.
+	'background-color' changes the background color of the floating box.
+	'selected-normal-background' changes the text-color of the focused item.
+**/
+* {
+    red:                         rgba ( 220, 50, 47, 100 % );
+    selected-active-foreground:  var(background);
+    lightfg:                     rgba ( 176, 215, 255, 100 % );
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    lightbg:                     rgba ( 176, 215, 255, 100 % );
+    spacing:                     2;
+    border-color:                var(lightbg);
+    normal-background:           var(background);
+    background-color:            rgba ( 255, 255, 255, 100 % );
+    alternate-active-background: var(lightbg);
+    active-foreground:           var(blue);
+    blue:                        rgba ( 173, 172, 181, 100 % );
+    urgent-background:           var(background);
+    alternate-normal-foreground: var(foreground);
+    selected-active-background:  var(blue);
+    background:                  rgba ( 0, 0, 0, 0% );
+    selected-normal-foreground:  var(lightbg);
+    active-background:           var(background);
+    alternate-active-foreground: var(blue);
+    alternate-normal-background: var(background);
+    foreground:                  rgba ( 45, 49, 66, 100 % );
+    selected-urgent-background:  var(red);
+    selected-urgent-foreground:  var(background);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    selected-normal-background:  var(lightfg);
+    font:                        "DejaVu Sans 12";
+}
+window {
+    padding:          5;
+    background-color: var(background);
+    border:           2;
+    border-radius:    12px;
+    fullscreen:	      false;
+    transparency:     "screenshot";
+    width:            30%;
+}
+mainbox {
+    padding: 10;
+    border:  0;
+    border-radius: 10px;
+}
+message {
+    padding:      2px 0px 0px ;
+    border-color: var(separatorcolor);
+    border:       2px dash 0px 0px ;
+    width:        30%;
+    font:         "monospace bold 10";
+}
+textbox {
+    text-color: var(foreground);
+    border-radius:10px;
+    padding: 10px 10px 10px;
+}
+listview {
+    padding:      2px 0px 0px ;
+    scrollbar:    false;
+    border-color: var(separatorcolor);
+    spacing:      2px ;
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+    lines:        5;
+}
+element {
+    padding: 1px ;
+    border:  0;
+}
+element normal.normal {
+    background-color: var(normal-background);
+    text-color:       var(normal-foreground);
+}
+element normal.urgent {
+    background-color: var(urgent-background);
+    text-color:       var(urgent-foreground);
+}
+element normal.active {
+    background-color: var(active-background);
+    text-color:       var(active-foreground);
+}
+element selected.normal {
+    background-color: var(selected-normal-background);
+    text-color:       var(selected-normal-foreground);
+}
+element selected.urgent {
+    background-color: var(selected-urgent-background);
+    text-color:       var(selected-urgent-foreground);
+}
+element selected.active {
+    background-color: var(selected-active-background);
+    text-color:       var(selected-active-foreground);
+}
+element alternate.normal {
+    background-color: var(alternate-normal-background);
+    text-color:       var(alternate-normal-foreground);
+}
+element alternate.urgent {
+    background-color: var(alternate-urgent-background);
+    text-color:       var(alternate-urgent-foreground);
+}
+element alternate.active {
+    background-color: var(alternate-active-background);
+    text-color:       var(alternate-active-foreground);
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: var(normal-foreground);
+}
+mode-switcher {
+    border-color: var(separatorcolor);
+    border:       2px dash 0px 0px ;
+}
+button {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+button selected {
+    background-color: var(selected-normal-background);
+    text-color:       var(selected-normal-foreground);
+}
+inputbar {
+    padding:    1px ;
+    spacing:    0px ;
+    text-color: var(normal-foreground);
+    children:   [ prompt,textbox-prompt-colon,entry,overlay,case-indicator ];
+}
+case-indicator {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+entry {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+prompt {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+textbox-prompt-colon {
+    margin:     0px 0.3000em 0.0000em 0.0000em ;
+    expand:     false;
+    str:        " > ";
+    text-color: inherit;
+}
+error-message {
+    background-color: rgba ( 0, 0, 0, 0 % );
+    text-color:       var(normal-foreground);
+}
