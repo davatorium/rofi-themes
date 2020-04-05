@@ -5,40 +5,42 @@
 	Change the values in the first block of variables(below) before...
 	...individually changing values in the components.
 	
-	'lightbg' changes the border color and the text color.
+	'lightfg' changes the border color and the text color.
 	'background-color' changes the background color of the floating box.
 	'selected-normal-background' changes the text-color of the focused item.
+	'lightbg' changes the highlight color of the list items.
 **/
 * {
     red:                         rgba ( 220, 50, 47, 100 % );
-    selected-active-foreground:  var(background);
-    lightfg:                     rgba ( 176, 215, 255, 100 % );
+    selected-active-foreground:  var(blackText);
+    lightfg:                     rgba ( 45, 49, 66, 100 % );
     separatorcolor:              var(foreground);
     urgent-foreground:           var(red);
     alternate-urgent-background: var(lightbg);
     lightbg:                     rgba ( 176, 215, 255, 100 % );
     spacing:                     2;
-    border-color:                var(lightbg);
+    border-color:                var(lightfg);
     normal-background:           var(background);
     background-color:            rgba ( 255, 255, 255, 100 % );
-    alternate-active-background: var(lightbg);
-    active-foreground:           var(blue);
+    alternate-active-background: var(darkerBlue);
+    active-foreground:           var(lightfg);
     blue:                        rgba ( 173, 172, 181, 100 % );
     urgent-background:           var(background);
     alternate-normal-foreground: var(foreground);
-    selected-active-background:  var(blue);
+    selected-active-background:  var(darkerBlue);
     background:                  rgba ( 0, 0, 0, 0% );
-    selected-normal-foreground:  var(lightbg);
+    selected-normal-foreground:  var(lightfg);
     active-background:           var(background);
-    alternate-active-foreground: var(blue);
+    alternate-active-foreground: var(blackText);
     alternate-normal-background: var(background);
     foreground:                  rgba ( 45, 49, 66, 100 % );
     selected-urgent-background:  var(red);
     selected-urgent-foreground:  var(background);
     normal-foreground:           var(foreground);
     alternate-urgent-foreground: var(red);
-    selected-normal-background:  var(lightfg);
+    selected-normal-background:  var(lightbg);
     font:                        "DejaVu Sans 12";
+    blackText:			 rgba(0, 0, 0, 100 %);
 }
 window {
     padding:          5;
