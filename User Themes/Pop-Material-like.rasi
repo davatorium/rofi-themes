@@ -1,0 +1,133 @@
+/**
+ * Author: Primetoxinz
+ * Added Material flavour by Aswin
+ */
+* {
+    text-color:                  #a7a6a7;
+    background-color:            #1e282d;
+    lightbg:                     #534c48;
+    black:  #1e181d;
+    red:    #eb606b;
+    green:  #c3e88d;
+    yellow: #f7eb95;
+    blue:   #7da6bf;
+    magenta:#6c71c4;
+    cyan:   #6e9dff;
+    white:  #ffffff;
+
+
+    selected-normal-foreground:  @cyan;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @background;
+    selected-urgent-foreground:  @cyan;
+    urgent-foreground:           @foreground;
+    alternate-urgent-background: @background;
+    active-foreground:           @foreground;
+    selected-active-foreground:  @cyan;
+    alternate-normal-foreground: @foreground;
+    alternate-active-background: @blue;
+    bordercolor:                 @foreground;
+    normal-background:           @background;
+    selected-normal-background:  @background;
+    separatorcolor:              @orange;
+    spacing:                     2;
+    urgent-background:           @red;
+    alternate-urgent-foreground: @foreground;
+    selected-urgent-background:  @red;
+    alternate-active-foreground: @foreground;
+    selected-active-background:  @black;
+    active-background:           @orange;
+}
+configuration {
+	display-drun: "  ";
+	display-run: "  ";
+	display-window: "  ";
+	display-ssh: "~#";
+	show-icons: false;
+	sidebar-mode: true;
+	font: "FreeSerif 10";
+}
+#window {
+    border:     0;
+    text-color: @foreground;
+    background-color: rgba ( 0, 0, 0, 0 % );
+    padding:    50px;
+    text-color: @bordercolor;
+    background-color: @background;
+}
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+#message {
+    border:     1px dash 0px 0px ;
+    text-color: @separatorcolor;
+    padding:    2px 0px 0px ;
+}
+#textbox {
+    text-color: @foreground;
+}
+#listview {
+    fixed-height: 0;
+    border:       2px 0px 0px ;
+    padding:      3px 3px 3px ;
+    text-color: @separatorcolor;
+    columns:3;
+    lines:8;
+}
+#element {
+    border: 0;
+    padding: 2px 20px 2px;
+
+}
+#element.normal.normal {
+    text-color: @normal-foreground;
+    background-color: @normal-background;
+}
+#element.normal.urgent {
+    text-color: @urgent-foreground;
+    background-color: @urgent-background;
+}
+#element.normal.active {
+    text-color: @active-foreground;
+    background-color: @active-background;
+}
+#element.selected.normal {
+    text-color: @selected-normal-foreground;
+    background-color: @selected-normal-background;
+}
+#element.selected.urgent {
+    text-color: @selected-urgent-foreground;
+    background-color: @selected-urgent-background;
+}
+#element.selected.active {
+    text-color: @selected-active-foreground;
+    background-color: @selected-active-background;
+}
+#element.alternate.normal {
+    text-color: @alternate-normal-foreground;
+    background-color: @alternate-normal-background;
+}
+#element.alternate.urgent {
+    text-color: @alternate-urgent-foreground;
+    background-color: @alternate-urgent-background;
+}
+#element.alternate.active {
+    text-color: @alternate-active-foreground;
+    background-color: @alternate-active-background;
+}
+#sidebar {
+    border: 1px dash 0px 0px ;
+}
+#button selected {
+    text-color: @selected-normal-foreground;
+    background-color: @selected-normal-background;
+}
+#inputbar {
+    spacing: 5px;
+    border: 0px ;
+}
+#button normal {
+    text-color: @foreground;
+}
+
