@@ -1,3 +1,12 @@
+configuration {
+	display-drun: "  ";
+	display-run: "  ";
+	display-window: "  ";
+	display-ssh: "~#";
+	show-icons: false;
+	sidebar-mode: true;
+	font: "FreeSerif 10";
+}
 /**
  * Author: Primetoxinz
  * Added Material flavour by Aswin
@@ -37,15 +46,6 @@
     alternate-active-foreground: @foreground;
     selected-active-background:  @black;
     active-background:           @orange;
-}
-configuration {
-	display-drun: "  ";
-	display-run: "  ";
-	display-window: "  ";
-	display-ssh: "~#";
-	show-icons: false;
-	sidebar-mode: true;
-	font: "FreeSerif 10";
 }
 #window {
     border:     0;
