@@ -38,4 +38,4 @@
 ![cloud](https://53280.de/rofi/cloud.png)
 
 #### merah
-![merah](https://raw.githubusercontent.com/ipang-dwi/merah/master/img2.jpg)
+![(https://github.com/ipang-dwi/merah](https://raw.githubusercontent.com/ipang-dwi/merah/master/img2.jpg)
