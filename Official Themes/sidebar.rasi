@@ -42,24 +42,18 @@
     highlight:     bold #ffffff;
 }
 #window {
-    fullscreen: true;
+    height:   100%;
+    width: 30em;
     location: west;
     anchor:   west;
     border:  0px 2px 0px 0px;
     text-color: @lightwhite;
-
-    orientation: horizontal;
-    children: [mainbox, dummy];
 }
 
-#dummy {
-    expand: true;
-}
-
-#sidebar {
+#mode-switcher {
     border: 2px 0px 0px 0px;
     background-color: @lightblack;
-    padding: 10px;
+    padding: 4px;
 }
 #button selected {
     border-color: @lightgreen;
@@ -75,7 +69,7 @@
     border: 0px 0px 2px 0px;
 }
 #mainbox {
-    expand: false;
+    expand: true;
     background-color: #1c1c1cee;
     spacing: 1em;
 }
