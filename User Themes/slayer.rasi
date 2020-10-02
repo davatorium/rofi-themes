@@ -1,0 +1,56 @@
+/*
+  Created by alt-art<pedromendescraft@gmail.com>,
+  Public domain.
+*/
+
+* {
+  background-color: #282A36;
+  border-color: #A4A8BC;
+  text-color: #A4A8BC;
+  spacing: 0;
+  width: 310px;
+  height: 240;
+}
+  
+window {
+   location: north west;
+   children: [ vertbox ];
+   border: 1px;
+}
+
+vertbox {
+    orientation: vertical;
+    children: [message, entry, listview ];
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+textbox {
+  background-color: #2e343f;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 5px;
+}
+
+entry {
+  expand: false;
+  padding: 5px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0px 0px 1px 0px;
+  padding: 5px;
+}
+
+element selected {
+  background-color: #3F4255;
+}

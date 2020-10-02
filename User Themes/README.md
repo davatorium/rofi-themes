@@ -39,3 +39,6 @@
 
 #### merah
 ![merah](https://raw.githubusercontent.com/ipang-dwi/merah/master/img2.jpg)
+
+#### slayer
+![slayer](https://i.imgur.com/lBhOdYm.png)
