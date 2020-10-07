@@ -12,7 +12,7 @@ fi
 declare -i ia=0
 for themefile in **/*.rasi 
 do
-    if [ -f "${themefile}" ] && [ ${ia} -eq 0 ]
+    if [ -f "${DIRECTORY}${themefile#*/}" ] && [ ${ia} -eq 0 ]
     then
         echo "Theme '${themefile}' exists, overwrite? y/N/a(ll)"
         read answer
