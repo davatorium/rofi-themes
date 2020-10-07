@@ -19,17 +19,17 @@ do
         if [ x$answer = x"y" ]
         then
             echo "+Installing '${themefile}'"
-            install "${themefile}" "${DIRECTORY}"
+            install -m 0644 "${themefile}" "${DIRECTORY}"
         elif [ x${answer} = x"a" ]
         then
             ia=1
             echo "+Installing '${themefile}'"
-            install "${themefile}" "${DIRECTORY}"
+            install -m 0644 "${themefile}" "${DIRECTORY}"
         else
             echo "+Skipping ${themefile}"
         fi 
     else
             echo "+Installing '${themefile}'"
-            install "${themefile}" "${DIRECTORY}"
+            install -m 0644 "${themefile}" "${DIRECTORY}"
     fi
 done
