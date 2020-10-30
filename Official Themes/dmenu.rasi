@@ -3,19 +3,18 @@
  * User: Qball
  * Copyright: Dave Davenport
  */
+
 * {
-    background-color:      Black;
-    border-color:          White;
-    text-color:           White;
-    font:            "Times New Roman 12";
+    background-color: #222222;
+    text-color:       white;
 }
 
 #window {
     anchor:     north;
     location:   north;
-    width:      100%;
-    padding:    4px;
     children:   [ horibox ];
+	width: 100%;
+	padding:0px;
 }
 
 #horibox {
@@ -35,8 +34,10 @@
 }
 
 #element {
-    padding: 0px 2px;
+    padding: 0.1em 0.5em 0.1em 0.5em;
 }
+
 #element selected {
-    background-color: SteelBlue;
+    text-color:       white;
+    background-color: #005577;
 }
