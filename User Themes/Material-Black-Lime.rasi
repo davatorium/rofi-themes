@@ -1,0 +1,124 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Material-Black-Lime color scheme
+ *
+ * User: Kepis
+ * Original: Tomaszal's material theme
+ * Copyright: Josef Litoš
+ * Edit to black-lime: Kepis
+ */
+
+* {
+	bg: 		#1a1c1e;
+	bg-alt: 	#0f1011;
+	bg-e: 	#1d1f21;
+	bg-e-alt:#212325;
+	fg: 		#cccccc;
+	ac: 		#7dbf2f;
+	ac-mid:	#68aa1a;
+	ac-dark:	#4d9000;
+	ac-fg: 	#212121;
+	id: 		#eeee00;
+	red: 		#ff4050;
+	spacing: 0;
+	background-color: transparent;
+}
+
+window {
+	transparency: "real";
+	/*fullscreen: true;*/
+	background-color: @bg;
+	border: 1px;
+	border-color: @bg-alt;
+}
+
+/*mainbox {
+	children: [inputbar, message, mode-switcher, listview];
+}*/
+
+listview {
+	fixed-height: 0;
+	spacing: 1px;
+	scrollbar: true;
+	margin: 5px 3px 5px 5px;
+}
+
+scrollbar {
+	background-color: @bg-alt;
+	handle-color: #ff4050aa;
+	handle-width: 14px;
+	border: 1px;
+	border-color: #131516;
+	margin: 0 0 0 3px;
+}
+
+inputbar {
+	background-color: @bg-alt;
+	padding: 10px 6px 10px 13px;
+	children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+	text-color: @ac-dark;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ": ";
+	text-color: @ac-dark;
+}
+
+entry {
+	text-color: @ac-mid;
+}
+
+case-indicator {
+	text-color: @red;
+}
+
+mode-switcher, message {
+	border: 1px 0;
+	border-color: @ac;
+}
+
+button, textbox {
+	background-color: @bg-e;
+	text-color: @fg;
+	padding: 5px;
+}
+
+button selected {
+	background-color: @ac;
+	text-color: @ac-fg;
+}
+
+element {
+	padding: 5px 1px;
+	highlight: bold underline;
+}
+
+element normal {
+	background-color: @bg-e;
+}
+
+element alternate {
+	background-color: @bg-e-alt;
+}
+
+element selected {
+	background-color: @ac;
+	text-color: @ac-fg;
+}
+
+element normal normal, element alternate normal {
+	text-color: @fg;
+}
+
+element normal urgent, element alternate urgent {
+	text-color: @red;
+}
+
+element normal active, element alternate active {
+	text-color: #228810;
+}
