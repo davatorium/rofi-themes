@@ -1,3 +1,5 @@
+## Because of lack of time to maintain this repository, its now archived.
+
 ## Official rofi-themes repository
 
 
