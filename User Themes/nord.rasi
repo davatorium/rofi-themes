@@ -1,0 +1,180 @@
+/************************************************
+ * ROFI Color theme
+ * User: rulrok
+ * Copyright: 2019 rulrok
+ ***********************************************/
+
+* {
+    /* Polar night */
+    nord-0: #2e3440;
+    nord-1: #3b4252;
+    nord-2: #434c5e;
+    nord-3: #4c566a;
+    /* Snow Storm */
+    nord-4: #d8dee9;
+    nord-5: #e5e9f0;
+    nord-6: #eceff4;
+    /* Frost */
+    nord-7: #8fbcbb;
+    nord-8: #88c0d0;
+    nord-9: #81a1c1;
+    nord-10: #5e81ac;
+    /* Aurora */
+    nord-11: #bf616a;
+    nord-12: #d08770;
+    nord-13: #ebcb8b;
+    nord-14: #a3be8c;
+    nord-15: #b48ead;
+    
+    background-color: @nord-3;
+    text-color: @nord-4;
+}
+
+
+#window {
+    background-color: @nord-1;
+    border:           0px;
+    padding:          0px;
+}
+
+#mainbox {
+    border:  2;
+    padding: 3;
+    background-color: @nord-1;
+}
+
+#message {
+    border:  2px 0px 0px;
+    border-color: @nord-1; 
+    padding:      1px;
+}
+
+#textbox {
+    text-color: 4;
+}
+
+#listview {
+    fixed-height: 0;
+    border:       2px 0px 0px 0px;
+    border-color: @nord-1;
+    spacing:      0;
+    scrollbar:    true;
+    padding:      0;
+}
+
+#element {
+    border:  1;
+    padding: 3px 10px;
+    margin: 0px;
+}
+
+#element.normal.normal {
+    background-color: @nord-3;
+    text-color:       @nord-6;
+}
+
+#element.normal.urgent {
+    background-color: @nord-11;
+    text-color:       @nord-1;
+}
+
+#element.normal.active {
+    background-color: @nord-14;
+    text-color:       @nord-1;
+}
+
+#element.selected.normal {
+    background-color: @nord-8;
+    text-color:       @nord-3;
+}
+
+#element.selected.urgent {
+    background-color: @nord-15;
+    text-color:       @nord-1;
+}
+
+#element.selected.active {
+    background-color: @nord-7;
+    text-color:       @nord-1;
+}
+
+#element.alternate.normal {
+    background-color: @nord-3;
+    text-color:       @nord-6;
+}
+
+#element.alternate.urgent {
+    background-color: @nord-11;
+    text-color:       @nord-1;
+}
+
+#element.alternate.active {
+    background-color: @nord-14;
+    text-color:       @nord-1;
+}
+
+#scrollbar {
+    width:        5px;
+    border:       0;
+    handle-color: @nord-0;
+    handle-width: 8px;
+    padding:      0 0 0 5px;
+    margin: 0;
+    background-color: @nord-1;
+}
+
+#sidebar {
+    border:       0px 0px 0px 0px;
+    border-color: @nord-3;
+}
+
+#button {
+    spacing:    0;
+    text-color: @nord-4;
+}
+
+#button.selected {
+    background-color: @nord-8;
+    text-color:       @nord-3;
+}
+
+#inputbar {
+    spacing:    0;
+    text-color: @nord-4;
+    padding:    1px ;
+}
+
+#case-indicator {
+    spacing:    0;
+    text-color: @nord-1;
+    background-color: @nord-9;
+}
+
+#entry {
+    spacing:    0;
+    text-color: @nord-1;
+    background-color: @nord-9;
+}
+
+#prompt {
+    spacing:    0;
+    text-color: @nord-1;
+    background-color: @nord-9;
+    padding: 0 0 0 5px;
+}
+
+#inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    padding: 3px 5px 3px 5px;
+    background-color: @nord-9;
+}
+
+#textbox-prompt-colon {
+    expand:    false;
+    str:        " : ";
+    margin:     0 0 0 10px ;
+    margin: 0px;
+    border: 0 0 0 0px;
+    text-color: @nord-1;
+    background-color: @nord-9;
+}
