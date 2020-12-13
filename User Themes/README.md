@@ -39,3 +39,9 @@
 
 #### merah
 ![merah](https://raw.githubusercontent.com/ipang-dwi/merah/master/img2.jpg)
+
+#### tomorrow-night
+![tomorrow-night](https://i.imgur.com/WyH0TVq.png)
+
+#### nord
+![nord](https://i.imgur.com/FpJt7w9.png)

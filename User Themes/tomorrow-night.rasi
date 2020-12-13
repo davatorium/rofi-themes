@@ -1,0 +1,172 @@
+/******************************************************************************
+ * ROFI Color theme
+ *
+ * Based on Tomorrow-Night
+ * https://github.com/chriskempson/tomorrow-theme
+ *
+ * User: Foldex
+ * Copyright: Foldex
+ ******************************************************************************/
+
+* {
+    /* General */
+    foreground:                  #c5c8c6;
+    background:                  #282a2e;
+    background-dark:             #1d1f21;
+    bordercolor:                 #373b41;
+    red:                         #cc6666;
+    blue:                        #81a2be;
+    green:                       #52c196;
+
+    background-color:            @background;
+    border-color:                @bordercolor;
+
+    /* Normal */
+    normal-background:           @background;
+    normal-foreground:           @foreground;
+
+    selected-normal-background:  @background-dark;
+    selected-normal-foreground:  @blue;
+
+    alternate-normal-background: @background;
+    alternate-normal-foreground: @foreground;
+
+    /* Active */
+    active-background:           @background;
+    active-foreground:           @green;
+
+    selected-active-background:  @background-dark;
+    selected-active-foreground:  @green;
+
+    alternate-active-background: @background;
+    alternate-active-foreground: @green;
+
+    /* Urgent */
+    urgent-background:           @background;
+    urgent-foreground:           @red;
+
+    selected-urgent-background:  @background-dark;
+    selected-urgent-foreground:  @red;
+
+    alternate-urgent-background: @background;
+    alternate-urgent-foreground: @red;
+}
+
+#window {
+    background-color: @background;
+    border:           1;
+    padding:          5;
+}
+
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+
+#message {
+    border:  2px 0px 0px;
+    padding: 1px;
+}
+
+#textbox {
+    text-color: @foreground;
+}
+
+#listview {
+    border:       1px 0px 0px;
+    fixed-height: 0;
+    padding:      2px 0px 0px;
+    scrollbar:    true;
+    spacing:      2px;
+}
+
+#element {
+    border:  0;
+    padding: 1px;
+}
+
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color:       @urgent-foreground;
+}
+
+#element.normal.active {
+    background-color: @active-background;
+    text-color:       @active-foreground;
+}
+
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color:       @selected-urgent-foreground;
+}
+
+#element.selected.active {
+    background-color: @selected-active-background;
+    text-color:       @selected-active-foreground;
+}
+
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+
+#element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color:       @alternate-urgent-foreground;
+}
+
+#element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color:       @alternate-active-foreground;
+}
+
+#scrollbar {
+    border:       0;
+    handle-color: @background-dark;
+    handle-width: 4px;
+    padding:      0;
+    width:        4px;
+}
+
+#sidebar {
+    border: 2px 0px 0px;
+}
+
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#inputbar {
+    padding:    2px;
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+#case-indicator {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+#entry {
+    padding:    0px 4px;
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+#prompt {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+/* vim:ft=css
