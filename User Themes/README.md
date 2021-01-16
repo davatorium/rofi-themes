@@ -39,3 +39,6 @@
 
 #### merah
 ![merah](https://raw.githubusercontent.com/ipang-dwi/merah/master/img2.jpg)
+
+#### Darker Than Black
+![Darker Than Black](https://raw.githubusercontent.com/Avasz/rofi-themes-avasz/master/darker-than-black/images/darker-than-black_v3.png)
