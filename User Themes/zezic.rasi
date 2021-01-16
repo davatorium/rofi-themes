@@ -1,0 +1,92 @@
+/*
+ * ROFI color theme
+ *
+ * Based on https://www.reddit.com/r/unixporn/comments/4f8fbq/compiz_rofi_with_compiz_blur/
+ * Named after the creator of the post
+ *
+ * Creator: Arjun Nair
+ */
+
+* {
+	fgcolor: #B0E670;
+	bgcolor: #14161F;
+	hlfgcolor: #14161F;
+	hlbgcolor: #B0E670;
+	bcolor: #14161F;
+
+	spacing: 0;
+	background-color: transparent;
+
+	font: "Roboto Mono 13";
+}
+
+window {
+	transparency: "real";
+	fullscreen: true;
+	background-color: #14161FCC; /*color + CC (80% opacity)*/
+}
+
+mainbox {
+	children: [inputbar, message, listview];
+	spacing: 10px;
+	margin: 25%;
+	padding: 30px 0;
+}
+
+inputbar {
+	padding: 0 30px;
+	children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+	text-color: @fgcolor;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0 1ch 0 0;
+	text-color: @fgcolor;
+}
+
+entry {
+	text-color: @fgcolor;
+}
+
+case-indicator {
+	text-color: @fgcolor;
+}
+
+message {
+	border: 1px 0;
+	border-color: @fgcolor;
+}
+
+button, textbox {
+	background-color: @bgcolor;
+	text-color: @fgcolor;
+	padding: 5px;
+}
+
+button selected {
+	background-color: @fgcolor;
+}
+
+listview {
+	margin: 0 10px 0 30px;
+}
+
+element {
+	padding: 5px;
+	highlight: bold underline;
+}
+
+element normal {
+	text-color: @fgcolor;
+	background-color: transparent;
+}
+
+element selected {
+	text-color: @hlfgcolor;
+	background-color: @hlbgcolor;
+}
